@@ -51,9 +51,57 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+html, body{
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    margin:2%;
+}
+
+a{
+    text-decoration: none;
+    letter-spacing:1px;
+    color:black;
+}
+
+.links{
+    width:80%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:2%;
+}
+
+.home:hover{
+    color:teal;
+}
+
+.about:hover{
+    color:gold;
+}
+
+.product:hover{
+    color:cadetblue;
+}
+
+.blog:hover{
+    color:coral;
+}
+
+.contact:hover{
+    color:crimson;
+}
+
+header nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2%;
+}
+.top-pic{
+    width:80%;
+    display:flex;
+    align-items: center;
+    padding:2%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,6 +112,12 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+.top-pic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .container {
@@ -104,12 +158,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1{
+    background: teal;
+}
+
+.box2{
+    background: gold;
+}
+
+.box3{
+    background:cadetblue;
+}
+
+.box4{
+    background:coral;
+}
+
+.box5{
+    background:crimson;
+}
+
+.box6{
+    background:forestgreen
+}
+
+.box7{
+    background:darkorchid;
+}
+
+.box8{
+    background: hotpink;
+}
+
+.box9{
+    background:indigo;
+}
+
+.box10{
+    background:dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +237,61 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.top-prargraph{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.top-prargraph h2{
+    margin-left:2%; 
+}
+
+.top-prargraph p{
+    margin-bottom: 2%;
+    margin-left:2%;
+    margin-right:2%;
+}
+
+.top-gallery,.bottom-gallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery{
+    border-bottom: 1px dashed black;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.gallery img{
+    margin-bottom:2%;
+}
+
+.gallery p{
+    margin-bottom:4%;
+}
+
+.gallery a{
+    padding:2%;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top:2%;
+    margin-bottom:4%;
+    margin-right: 70%;
+    display:flex;
+}
+
+.gallery a:hover{
+    color:white;
+    background:black;
+}
+
+.bottom-paragraph{
+    margin-bottom:4%;
+    margin-left:2%;
+    margin-right:2%;
 }
