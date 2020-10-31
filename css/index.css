@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/* css reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -58,6 +58,22 @@ html, body{
     margin:2%;
 }
 
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* navigation links */
 a{
     text-decoration: none;
     letter-spacing:1px;
@@ -98,6 +114,8 @@ header nav{
     align-items: center;
     padding:2%;
 }
+
+/* large picture at top of both pages */
 .top-pic{
     width:80%;
     height: 20vh;
@@ -122,21 +140,7 @@ header nav{
     background-repeat: no-repeat;img/jumbo-about.png
 }
 
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-}
-
-p {
-    line-height: 1.4;
-}
-
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
-
+/* top two paragraphs on index */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -151,6 +155,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* ten colored boxes on index */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -183,7 +188,7 @@ p {
 
 .box1:hover{
     background:white;
-    color:teal !important;
+    color:teal !important; /*used to override white color from .middle-content .boxes .box */
     border: 1px solid teal;
     transition: .4s ease;
 }
@@ -287,6 +292,7 @@ p {
     transition: .4s ease;
 }
 
+/* Bottom three paragraphs on index */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -301,6 +307,7 @@ p {
     padding-right: 0;
 }
 
+/* bottom navigation on both pages */
 footer {
     width: 100%;
     background: black;
@@ -320,6 +327,7 @@ footer nav a {
     text-decoration: none;
 }
 
+/* top paragraph on about */
 .top-prargraph{
     display: flex;
     flex-wrap: wrap;
@@ -336,6 +344,7 @@ footer nav a {
     margin-right:2%;
 }
 
+/* four images, titles, paragraphs, and links on about */
 .top-gallery,.bottom-gallery{
     display: flex;
     justify-content: space-between;
@@ -372,6 +381,7 @@ footer nav a {
     transition: .4s ease;
 }
 
+/* last paragraph on the about page */
 .bottom-paragraph{
     margin-bottom:4%;
     margin-left:2%;
