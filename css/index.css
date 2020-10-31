@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid white;
 }
 
 html, body{
@@ -99,9 +100,26 @@ header nav{
 }
 .top-pic{
     width:80%;
+    height: 20vh;
     display:flex;
     align-items: center;
+    justify-content: space-between;
     padding:2%;
+    margin: 0 auto;
+    background-image: url('../img/jumbo.jpg');
+    background-repeat: no-repeat;
+}
+
+.about-top-pic{
+    width:80%;
+    height: 20vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2%;
+    margin: 0 auto;
+    background-image: url('../img/jumbo-about.png');
+    background-repeat: no-repeat;img/jumbo-about.png
 }
 
 h1, h2, h3, h4, h5 {
@@ -112,12 +130,6 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
-}
-
-.top-pic{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .container {
@@ -158,7 +170,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -170,40 +181,110 @@ p {
     background: teal;
 }
 
+.box1:hover{
+    background:white;
+    color:teal !important;
+    border: 1px solid teal;
+    transition: .4s ease;
+}
+
 .box2{
     background: gold;
+}
+
+.box2:hover{
+    background: white;
+    color:gold !important;
+    border: 1px solid gold;
+    transition: .4s ease;
 }
 
 .box3{
     background:cadetblue;
 }
 
+.box3:hover{
+    background: white;
+    color:cadetblue !important;
+    border: 1px solid cadetblue;
+    transition: .4s ease;
+}
+
 .box4{
     background:coral;
+}
+
+.box4:hover{
+    background: white;
+    color:coral !important;
+    border: 1px solid coral;
+    transition: .4s ease;
 }
 
 .box5{
     background:crimson;
 }
 
+.box5:hover{
+    background: white;
+    color:crimson !important;
+    border: 1px solid crimson;
+    transition: .4s ease;
+}
+
 .box6{
     background:forestgreen
+}
+
+.box6:hover{
+    background: white;
+    color:forestgreen !important;
+    border: 1px solid forestgreen;
+    transition: .4s ease;
 }
 
 .box7{
     background:darkorchid;
 }
 
+.box7:hover{
+    background: white;
+    color:darkorchid !important;
+    border: 1px solid darkorchid;
+    transition: .4s ease;
+}
+
 .box8{
     background: hotpink;
+}
+
+.box8:hover{
+    background: white;
+    color:hotpink !important;
+    border: 1px solid hotpink;
+    transition: .4s ease;
 }
 
 .box9{
     background:indigo;
 }
 
+.box9:hover{
+    background: white;
+    color:indigo !important;
+    border: 1px solid indigo;
+    transition: .4s ease;
+}
+
 .box10{
     background:dodgerblue;
+}
+
+.box10:hover{
+    background: white;
+    color:dodgerblue !important;
+    border: 1px solid dodgerblue;
+    transition: .4s ease;
 }
 
 .bottom-content {
@@ -226,9 +307,9 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -278,7 +359,7 @@ footer nav a {
 .gallery a{
     padding:2%;
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 2rem;
     margin-top:2%;
     margin-bottom:4%;
     margin-right: 70%;
@@ -288,6 +369,7 @@ footer nav a {
 .gallery a:hover{
     color:white;
     background:black;
+    transition: .4s ease;
 }
 
 .bottom-paragraph{
